@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+ /*Este programa fue codificado por Bolaños Gómez Martín, González Zamora Leonardo Demián, Portillo López Juan Manuel y Rojas Jiménez Claudia Alin.
+  Creado el 5/Marzo/2021 */
 int main(){
 	int *a = NULL;//Se declara una variable apuntador como arreglo de variables de una dimension
 
-	a = (int*) malloc(sizeof(int)*10);//Se reserva memoria para un arreglo de 10 elementos del tama�o de int (4 bytes)
+	a = (int*) malloc(sizeof(int)*10);//Se reserva memoria para un arreglo de 10 elementos del tamaño de int (4 bytes)
 	
 	//Inciso a)
 	printf("\tInciso a)\n");
