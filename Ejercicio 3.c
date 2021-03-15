@@ -2,11 +2,14 @@
 #include<string.h>
 #include<stdlib.h>
 
+ /*Este programa fue codificado por Bolaños Gómez Martín, González Zamora Leonardo Demián, Portillo López Juan Manuel y Rojas Jiménez Claudia Alin.
+  Creado el 5/Marzo/2021 */
+
 int main(){
 	int ***a = NULL;//Se declara una variable apuntador como arreglo de variables de tres dimensiones ***
 	int contador = 0;
 	
-	a = (int ***)malloc(sizeof(int**)*3);//Se reserva memoria para un arreglo de 3 elementos de tama�o int que corresponderan a la primer dimension del arreglo
+	a = (int ***)malloc(sizeof(int**)*3);//Se reserva memoria para un arreglo de 3 elementos de tamaño int que corresponderan a la primer dimension del arreglo
 	for(int i = 0; i < 3; i++){
 		a[i] = (int **)malloc(sizeof(int*)*2);//Con este ciclo se reserva memoria en cada elemento de la primer dimension para generar la segunda dimension del arreglo
 		for(int j = 0; j < 2; j++){
